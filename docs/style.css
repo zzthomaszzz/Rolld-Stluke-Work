@@ -1,0 +1,36 @@
+
+th {
+    font-weight: bold;
+}
+
+table, th, tr, td{
+    border: 2px solid;
+}
+
+
+table{
+    border-collapse: collapse;
+    table-layout:fixed;
+    width: 260px;
+    margin: 10px;
+}
+
+input{
+    width: 50%;
+}
+
+tr :nth-child(2){
+    padding-left:12.5%;
+    text-align:left;
+}
+
+tr :nth-child(1){
+    text-align:left;
+}
+
+button{
+    width: 260px;
+    height: 80px;
+    margin: 10px;
+}
+
