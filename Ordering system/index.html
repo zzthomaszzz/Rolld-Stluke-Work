@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Take App</title>
+</head>
+<body>
+
+    <h2>Stock Take</h2>
+    <table>
+        <tr>
+            <th>Item name</th>
+            <th>amount</th>
+        </tr>
+        <tr>
+            <th>bbq chicken</th>
+            <th><input type="number" id="userBbqChicken" value="0"></th>
+        </tr>
+        <tr>
+            <th>lemongrass chicken</th>
+            <th><input type="number" id="userLemongrassChicken" value="0"></th>
+        </tr>
+        <tr>
+            <th>lemongrass beef</th>
+            <th><input type="number" id="userLemongrassBeef" value="0"></th>
+        </tr>
+        <tr>
+            <th>Pork and crackling</th>
+            <th><input type="number" id="userPorkNCrackling" value="0"></th>
+        </tr>
+    </table>
+    <button onclick="sendEmail()">order</button>
+    
+
+    <!-- This links your separate JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
